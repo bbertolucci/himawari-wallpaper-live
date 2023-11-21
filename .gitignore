@@ -1,0 +1,41 @@
+# Dossiers de build et de bin
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Aa]pp[Rr]un/
+**/[Aa]pp[Xx]/
+
+# Fichiers générés lors de la build
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Fichiers de cache et de logs
+**/[Cc]ache/
+**/[Ll]ogs/
+**/[Tt]emp/
+
+# Fichiers de configuration de l'IDE et fichiers temporaires
+**/.vs/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+
+# Fichiers de packages NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Fichiers de sauvegarde générés automatiquement
+*.[Bb]ak
+*.[Bb]ackup
+*.tmp
+*.temp
+
+# Autres fichiers et dossiers à ignorer
+.DS_Store
+Thumbs.db
